@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WeWALK — Bastón Inteligente para Personas con Discapacidad Visual</title>
+  <meta name="description" content="Trabajo IPO: página web accesible e intuitiva sobre WeWALK. Qué es, beneficios, IPO, prototipo, escenarios, evolución, galería de imágenes y vídeo final." />
+  <link rel="preload" href="styles.css" as="style">
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header role="banner" class="site-header">
+    <div class="wrap header-inner">
+      <h1 class="brand">WeWALK — Bastón Inteligente</h1>
+      <nav aria-label="Secciones principales">
+        <ul class="nav">
+          <li><a href="#que-es">Qué es</a></li>
+          <li><a href="#beneficios">Beneficios</a></li>
+          <li><a href="#ipo">IPO</a></li>
+          <li><a href="#prototipo">Prototipo</a></li>
+          <li><a href="#escenarios">Escenarios</a></li>
+          <li><a href="#evolucion">Evolución</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#video">Vídeo</a></li>
+          <li><a href="#fuentes">Fuentes</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" class="wrap" tabindex="-1">
+    <!-- HERO PRINCIPAL -->
+    <section class="hero-section card">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h2>Movilidad accesible, guiada y segura</h2>
+          <p><strong>WeWALK</strong> integra un módulo ligero con <strong>sensores ultrasónicos</strong>, <strong>conectividad Bluetooth</strong> y <strong>navegación por voz</strong>. Detecta obstáculos elevados y guía al usuario con <strong>vibración háptica</strong> e indicaciones auditivas.</p>
+          <ul class="highlights">
+            <li>Detección anticipada de obstáculos.</li>
+            <li>Navegación paso a paso con app móvil.</li>
+            <li>Interacción multimodal: háptica + voz.</li>
+          </ul>
+        </div>
+        <figure class="hero-media">
+          <img referrerpolicy="no-referrer" src="https://i.blogs.es/cc4782/wewalk-3/840_560.jpg" alt="Persona usando WeWALK por la ciudad, con el módulo visible" />
+          <figcaption>Uso real en entorno urbano.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- QUE ES -->
+    <section id="que-es" class="card">
+      <h2>¿Qué es WeWALK?</h2>
+      <p><strong>WeWALK</strong> amplía el bastón blanco tradicional con un módulo electrónico que incorpora <strong>ultrasonidos</strong> para detectar obstáculos a media y alta altura, <strong>Bluetooth</strong> para enlazar con el teléfono y <strong>asistencia por voz</strong> para orientación y contexto.</p>
+      <div class="media-duo">
+        <figure>
+          <img class="photo" referrerpolicy="no-referrer" src="https://i.blogs.es/cc4782/wewalk-3/840_560.jpg" alt="Primer plano de WeWALK en uso real" />
+          <figcaption>Producto en contexto real.</figcaption>
+        </figure>
+        <figure>
+          <!-- Ilustración auto-contenida como respaldo visual (siempre visible) -->
+          <svg class="photo" viewBox="0 0 1200 520" role="img" aria-labelledby="heroCap">
+            <title id="heroCap">Esquema de funcionamiento: ondas de detección y app conectada</title>
+            <defs>
+              <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#ffe5e5"/>
+                <stop offset="100%" stop-color="#fff6f6"/>
+              </linearGradient>
+            </defs>
+            <rect width="1200" height="520" fill="url(#bg)"/>
+            <rect x="220" y="110" width="24" height="340" rx="12" fill="#9b111e"/>
+            <rect x="244" y="170" width="140" height="64" rx="12" fill="#ffffff" stroke="#9b111e" stroke-width="3"/>
+            <circle cx="372" cy="202" r="9" fill="#9b111e"/>
+            <path d="M400,200 q100,-40 220,0" stroke="#9b111e" stroke-width="6" fill="none" opacity=".25"/>
+            <path d="M400,224 q140,-40 280,0" stroke="#9b111e" stroke-width="6" fill="none" opacity=".18"/>
+            <rect x="820" y="120" width="150" height="280" rx="18" fill="#1b1b1e" stroke="#9b111e" stroke-width="2"/>
+            <rect x="832" y="140" width="126" height="220" rx="12" fill="#0b0b0d"/>
+            <circle cx="898" cy="370" r="8" fill="#e5e7eb"/>
+            <circle cx="860" cy="210" r="6" fill="#ff6b6b"/>
+            <circle cx="905" cy="235" r="6" fill="#ffb3b3"/>
+            <circle cx="875" cy="265" r="6" fill="#ff6b6b"/>
+          </svg>
+          <figcaption>Arquitectura de interacción: sensor + ondas + app.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section id="beneficios" class="grid two card">
+      <article>
+        <h2>Beneficios</h2>
+        <ul class="bulleted">
+          <li><strong>Accesibilidad real:</strong> reduce riesgos al anticipar obstáculos elevados.</li>
+          <li><strong>Autonomía y confianza:</strong> guía por voz y vibración en entornos desconocidos.</li>
+          <li><strong>Interacción multimodal:</strong> combina canales háptico, auditivo y visual (app).</li>
+          <li><strong>Personalización:</strong> sensibilidad y preferencias ajustables.</li>
+        </ul>
+      </article>
+      <aside class="note-box">
+        <h3>Limitaciones y mejoras futuras</h3>
+        <ul>
+          <li>Dependencia del smartphone para funciones avanzadas.</li>
+          <li>Ajuste fino de ultrasonidos según entorno (eco/lluvia).</li>
+          <li>Futuro: IA embarcada y visión artificial para reconocimiento de escenas.</li>
+        </ul>
+      </aside>
+    </section>
+
+    <!-- IPO -->
+    <section id="ipo" class="card">
+      <h2>Relación con la Interacción Persona‑Ordenador (IPO)</h2>
+      <p>WeWALK aplica principios de IPO para reducir la carga cognitiva y mantener el control del usuario:</p>
+      <ul class="bulleted">
+        <li><strong>Entradas:</strong> movimiento, comandos de voz y datos de sensores.</li>
+        <li><strong>Salidas:</strong> vibración háptica y voz sintética; apoyo visual accesible.</li>
+        <li><strong>Diseño centrado en la persona:</strong> consistencia entre modalidades y ajustes individuales.</li>
+        <li><strong>Contexto:</strong> movilidad activa, manos ocupadas y entornos cambiantes.</li>
+      </ul>
+    </section>
+
+    <!-- PROTOTIPO -->
+    <section id="prototipo" class="card">
+      <h2>Prototipo</h2>
+      <p>Visualización del concepto de módulo integrado y su colocación en el bastón. Explica dónde se ubican los sensores y cómo se integra la interacción visual y háptica.</p>
+      <div class="media-duo">
+        <figure>
+          <!-- Prototipo como dibujo técnico (siempre visible) -->
+          <svg class="photo" viewBox="0 0 1200 520" role="img" aria-labelledby="protoCap">
+            <title id="protoCap">Prototipo: módulo, sujeción y campo de detección</title>
+            <defs>
+              <linearGradient id="protoBg" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#fff3f3"/>
+                <stop offset="100%" stop-color="#ffe9e9"/>
+              </linearGradient>
+            </defs>
+            <rect width="1200" height="520" fill="url(#protoBg)"/>
+            <rect x="240" y="100" width="20" height="320" rx="10" fill="#9b111e"/>
+            <rect x="260" y="170" width="160" height="70" rx="14" fill="#ffffff" stroke="#9b111e" stroke-width="3"/>
+            <rect x="260" y="246" width="160" height="16" rx="8" fill="#ff6b6b" opacity=".35"/>
+            <path d="M440,205 q160,-60 320,0" stroke="#9b111e" stroke-width="8" fill="none" opacity=".25"/>
+            <path d="M440,232 q200,-60 400,0" stroke="#9b111e" stroke-width="8" fill="none" opacity=".18"/>
+            <circle cx="820" cy="220" r="9" fill="#ff6b6b"/>
+            <circle cx="900" cy="245" r="9" fill="#ffb3b3"/>
+          </svg>
+          <figcaption>Concepto de prototipo: colocación del módulo y campo de detección.</figcaption>
+        </figure>
+        <figure>
+          <img class="photo" referrerpolicy="no-referrer" src="https://img.youtube.com/vi/1P-9Ti0Kuhk/hqdefault.jpg" alt="Miniatura del vídeo de WeWALK mostrando el producto" />
+          <figcaption>Producto real: referencia visual del vídeo oficial.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ESCENARIOS -->
+    <section id="escenarios" class="card">
+      <h2>Escenarios de uso</h2>
+      <ul class="bulleted">
+        <li><strong>Trayecto diario:</strong> guía paso a paso y alerta de obstáculos elevados en cruces y aceras.</li>
+        <li><strong>Entorno urbano nuevo:</strong> puntos de interés accesibles, transporte y rutas seguras.</li>
+        <li><strong>Interiores complejos:</strong> navegación por voz en edificios, estaciones o campus.</li>
+      </ul>
+    </section>
+
+    <!-- EVOLUCION -->
+    <section id="evolucion" class="card">
+      <h2>Evolución histórica</h2>
+      <div class="timeline">
+        <div class="t-item"><strong>Siglo XX:</strong> bastón blanco tradicional (detección por contacto, sin electrónica).</div>
+        <div class="t-item"><strong>2000‑2010:</strong> ayudas electrónicas con sensores básicos y avisos sonoros/vibración.</div>
+        <div class="t-item"><strong>2019‑hoy:</strong> WeWALK integra ultrasonidos, Bluetooth, GPS y voz para anticipar obstáculos y guiar.</div>
+        <div class="t-item"><strong>Futuro:</strong> IA y visión artificial para reconocimiento semántico del entorno.</div>
+      </div>
+      <p class="note">WeWALK potencia el bastón tradicional: añade consciencia situacional y guía inteligente.</p>
+    </section>
+
+    <!-- GALERIA (fotos robustas) -->
+    <section id="galeria" class="card">
+      <h2>Galería</h2>
+      <div class="gallery">
+        <figure>
+          <img referrerpolicy="no-referrer" src="https://i.blogs.es/cc4782/wewalk-3/840_560.jpg" alt="Usuario caminando con WeWALK por la ciudad" />
+          <figcaption>Contexto real de uso urbano.</figcaption>
+        </figure>
+        <figure>
+          <img referrerpolicy="no-referrer" src="https://img.youtube.com/vi/1P-9Ti0Kuhk/hqdefault.jpg" alt="Miniatura del vídeo de WeWALK mostrando el producto" />
+          <figcaption>Producto real visto en el vídeo.</figcaption>
+        </figure>
+        <figure>
+          <!-- Respaldo conceptual: siempre visible -->
+          <svg viewBox="0 0 560 360" role="img" aria-labelledby="svgGCap">
+            <title id="svgGCap">Concepto de ondas y navegación</title>
+            <rect width="560" height="360" fill="#fff2f2"/>
+            <rect x="80" y="80" width="24" height="220" rx="12" fill="#9b111e"/>
+            <rect x="104" y="140" width="160" height="70" rx="12" fill="#ffffff" stroke="#9b111e" stroke-width="3"/>
+            <path d="M280,180 q120,-50 240,0" stroke="#9b111e" stroke-width="8" fill="none" opacity=".25"/>
+            <path d="M280,206 q150,-50 300,0" stroke="#9b111e" stroke-width="8" fill="none" opacity=".18"/>
+          </svg>
+          <figcaption>Concepto: detección anticipada y guía.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- VIDEO (AL FINAL) -->
+    <section id="video" class="card">
+      <h2>Vídeo demostración</h2>
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/1P-9Ti0Kuhk" title="Demostración de WeWALK en YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="note">El vídeo ilustra la navegación guiada y la detección anticipada de obstáculos.</p>
+    </section>
+
+    <!-- FUENTES -->
+    <section id="fuentes" class="card">
+      <h2>Fuentes y más información</h2>
+      <ul class="links">
+        <li><a href="https://wewalk.io" target="_blank" rel="noopener">Sitio oficial de WeWALK</a></li>
+        <li><a href="https://www.bbc.com/news/technology-48256712" target="_blank" rel="noopener">BBC — Tecnología accesible: WeWALK</a></li>
+        <li><a href="https://www.un.org/development/desa/disabilities/wewalk.html" target="_blank" rel="noopener">ONU — Tecnología accesible e inclusión</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer role="contentinfo" class="site-footer">
+    <div class="wrap">
+      <p><strong>Autor y entrega:</strong> Carlos Jiménez García</p>
+      <p class="foot-note">HTML único + CSS único. Diseño accesible, responsive y sin JavaScript.</p>
+    </div>
+  </footer>
+</body>
+</html>
