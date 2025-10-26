@@ -33,9 +33,9 @@ El diseño prioriza la legibilidad, la navegación clara y la compatibilidad sin
 1. Archivos principales del proyecto: `index.html` y `styles.css`.  
 2. Publicación en **GitHub Pages** desde la rama `main` (carpeta raíz).  
 3. URL del sitio:  
-   `https://TU_USUARIO.github.io/ipo_accesibilidad_carlos_jimenez_garcia/`
+   `https://cjimenezga.github.io/ipo_accesibilidad_carlos_jimenez_garcia/`
 
-*(Sustituir “TU_USUARIO” por el nombre real del usuario de GitHub antes de la entrega.)*
+
 
 ---
 
